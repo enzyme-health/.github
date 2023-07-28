@@ -1,19 +1,16 @@
-### 📃 Summary
+### Summary
 <!-- Enter a short description about what this PR contains. -->
 ---
-### 🔍 Changeset
+### Changeset
 <!-- List out the code changes introduced by this PR. Data Migrations, Endpoints, etc -->
 ---
-### 🏷 JIRA Task
+### JIRA Task
 <!-- Provide a link to the associated JIRA task. -->
 https://wheelhealth.atlassian.net/browse/XXX
-### ↩️ Depends On
-<!-- Provide a link to any other PR dependencies. -->
+### Dependencies
+<!-- Provide a link to any other PR dependencies. "n/a" if none.-->
 ---
-### 📸 Screenshots (before/after)
-<!-- If this PR alters any UI, provider before/after screenshots. -->
----
-### 🧪 QA
+### Testing
 <!-- List out the steps to test the feature. -->
 
 - Unit tests
@@ -23,35 +20,16 @@ https://wheelhealth.atlassian.net/browse/XXX
 - Regression tests
   - [ ] Yes
   - [ ] No
- 
-- Performance tests
-  - [ ] Yes
-  - [ ] No
 ---
-### ✨ Style Guide
-
-- Prettier
-  - [ ] Yes
-  - [ ] No
----
-### 📈 Risk Analysis
+### Risk/Impact Analysis
 <!-- Provide a risk description -->
 
-- Does this affect patients?
-  - [ ] Yes
-  - [ ] No
-- Does this affect clinical?
-  - [ ] Yes
-  - [ ] No
-- Does this mutate data?
-  - [ ] Yes
-  - [ ] No
-- Does it touch PHI?
-  - [ ] Yes
-  - [ ] No
-- oes it touch payments?
-  - [ ] Yes
-  - [ ] No
+- [] Low impact: affects < 1% of users
+- [] Medium impact: 1% < affects < 5% of users
+- [] High impact: affects > 5% users
 ---
-### 📝  Documentation Updates
+### Rollback Plan
+<!-- Describe the steps to back out the change if it breaks something -->
+---
+### Documentation Updates
 <!-- Do the changes in this PR require any documentation updates or new documentation to be written? -->
